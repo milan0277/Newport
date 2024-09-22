@@ -1,0 +1,110 @@
+.milan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.milan img{
+    margin-top: 10px;
+    width: 500px;
+    height: 320px;
+}
+
+.milan h1{
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.milan h1 span{
+    background: linear-gradient(267deg,#da7c25 0.36%,#800187 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.milan p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.milan-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.milan-connect{
+    padding: 25px 45px;
+    border-radius: 50px 10px 10px 10px;
+    background: linear-gradient(267deg,#da7c25 0.36%,#800187 100%);
+    cursor: pointer;
+}
+
+.milan-resume{
+    padding: 25px 75px;
+    border: 2px solid white;
+    border-radius: 10px 50px 10px 10px;
+    cursor: pointer;
+}
+
+.milan-resume a{
+    text-decoration: none;
+    color: white;
+}
+
+.milan-connect:hover{
+    border: 2px solid white;
+}
+
+.milan-resume:hover{
+    border-color: #800187;
+}
+
+.anchorlink{
+ text-decoration: none;
+ color: white;
+}
+
+@media(max-width:768px){
+    .milan img{
+        margin-top: 120px;
+        width: 260px;
+    }
+    .milan h1{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .milan p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 80px 0px;
+    }
+
+    .milan-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .milan-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+
+    .milan-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}
